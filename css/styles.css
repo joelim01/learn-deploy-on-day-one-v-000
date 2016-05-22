@@ -3479,6 +3479,16 @@ a:visited {
  background-image: url("https://learn-verified.s3.amazonaws.com/han.jpg");
 }
 
+#joseph-lim-cover {
+  background-image: url("http://i.imgur.com/kyBb69j.jpg");
+}
+#joseph-lim-card {
+  background-image: url("http://i.imgur.com/1FZIbGo.jpg");
+}
+#joseph-lim-card.student-card::before {
+  background-image: linear-gradient(to top, #000, rgba(0, 0, 0, .0) 25%);
+}
+
 .view-profile-div {
   position: absolute;
   bottom: 0;
